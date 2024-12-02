@@ -1,0 +1,79 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", serif;
+}
+header{
+    width: 35vw;
+    height: auto;
+    background-color: rgb(78, 166, 255);
+    font-weight: 700;
+    font-size: 25px;
+    padding: 35px ;
+}
+body {
+    background: rgb(229, 229, 229);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+#hint{
+    width: 35vw;
+    height: auto;
+    background: rgb(150, 203, 255);
+    font-weight: 800;
+    font-size: 30px;
+    align-content: center;
+    padding: 35px;
+}
+#num{
+    width: 18vw;
+    height: auto;
+    background: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 50px;
+}
+#boxinput{
+    width: 35vw;
+    background: rgb(220, 237, 255);
+    font-weight: 800;
+    font-size: 50px;
+    padding-top: 12px;
+}
+#btnn{
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    background-color: rgb(128, 198, 255);
+    border-radius: 8px;
+    border-style: none;
+    font-weight: 600;
+    padding: 8px;
+}
+#boxinput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* padding: 10px; */
+    height: auto;
+}
+#chance{
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(78, 166, 255);
+    font-weight: 400;
+    font-size: 24px;
+    align-content:center ;
+    width: 35vw;
+    height: auto;
+}
